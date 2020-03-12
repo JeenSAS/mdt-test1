@@ -1,0 +1,354 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Sen', sans-serif;
+}
+.logo{
+  background-color: #faf5b2;
+  text-align: center;
+  position: fixed;
+  width: 10%;
+  height: 100%;
+}
+.logo h1{
+  margin-top: 50px;
+  font-size: 40px;
+  color: #111;
+}
+/**********************************************Menubutton***********************************************/
+.nav {  
+  background-color: #2e2e2e;
+  margin-top: 150px;
+  text-align: center;
+  position: fixed;
+  width: 10%;
+  height: 100%;
+}
+.nav .button{
+  margin-top: 50%;
+}
+.nav img{
+  width: 80%;
+}
+.nav h1 {
+	font-size: 20px;
+	text-transform: uppercase;
+	display: block;
+	margin-top: 10px;
+  color: rgb(255, 255, 255); 
+}
+.nav li {
+	text-align: center;
+  padding: 20px 0px;
+  list-style: none;
+}
+.nav button {
+  border: none;
+	width: 60%;
+	padding: 5px 0px;
+  list-style: none;
+}
+.nav button.active {
+  background-color: rgba(87, 87, 87, 0.8);
+}
+
+/**********************************************AboutMe***********************************************/
+.AboutMePage{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.left{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  flex: 40%;
+  background-color: rgb(117, 211, 255);
+}
+#Mypicture{
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.AboutMePage .left h1{
+  font-size: 60px;
+  color: white;
+  margin-top: 1%;
+  margin-left: 20%;
+}
+.AboutMePage .left h2{
+  font-size: 50px;
+  color: white;
+  margin-top: 38%;
+  margin-left: 20%;
+}
+.left #facebookpic{
+  border-radius: 20%;
+  margin-left: 20%;
+}
+.left img{
+  width: 10%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.right{
+  flex: 60%;
+  background-color: rgb(170, 255, 153);
+}
+.education{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  background-color: rgb(255, 131, 117);
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+.right h1{
+  font-size: 29px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.right h2{
+  font-size: 24px;
+  margin-left: 30px;
+}
+.right h3{
+  font-weight: lighter;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.skill{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  background-color: rgb(255, 131, 117);
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+.skill .list1{
+  flex-wrap: wrap;
+  flex: 30%;
+}
+.skill .list2{
+  margin-top: 50px;
+  flex-wrap: wrap;
+  flex: 30%;
+}
+.skill .list3{
+  margin-top: 50px;
+  flex-wrap: wrap;
+  flex: 30%;
+}
+.Hobbies{
+  display: flex;
+  border-radius: 30px;
+  background-color: rgb(255, 131, 117);
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+.Interests{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  background-color: rgb(255, 131, 117);
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+.Interests .list1{
+  flex: 20%;
+}
+.Interests .list2{
+  flex: 20%;
+  margin-top: 60px;
+}
+/**********************************************work***********************************************/
+
+.WorkPage{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.WorkPage .left{
+  flex: 50%;
+  background-color: rgb(0, 42, 61);
+  height: 979px;
+}
+.WorkPage .left h1{
+  color: whitesmoke;
+  font-size: 50px;
+}
+.WorkPage .right{
+  flex: 50%;
+  background-color: rgb(117, 211, 255);
+  height: auto;
+}
+.WorkPage .right h1{
+  color: whitesmoke;
+  font-size: 50px;
+}
+#skillpic{
+  width: 20%;
+}
+#educationpic{
+  width: 20%;
+}
+.skillpic{
+  padding-top: 185px;
+  padding-left: 140px;
+}
+.educationpic{
+  padding-top: 185px;
+}
+/*****************************************************************************************/
+
+.zbrush{
+  background-color: slategray;
+}
+.logozburh{
+  text-align: center;
+  background-image: url(img/zbrush.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.logozburh img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 10%;
+}
+.zbrushproject{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.zbrushproject > div {
+  margin: 10px;
+}
+.zbrushproject > div > img {
+  width: 100%;
+}
+
+.maya{
+  background-color: turquoise;
+}
+.logomaya{
+  text-align: center;
+  background-image: url(img/maya.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.logomaya img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 10%;
+}
+.mayaproject{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.mayaproject > div {
+  margin: 5px;
+}
+.mayaproject > div > img {
+  width: 100%;
+}
+/*********************************************************************************************************/
+
+@media only screen and (max-width: 1024px){
+  .left{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    flex: 100%;
+    background-color: rgb(117, 211, 255);
+  }
+  .nav h1{ 
+    display: none;
+  }
+  .logo h1{
+    display: none;;
+  }
+  .education{
+    width: 80%;
+    float: right;
+  }
+  .skill{
+    width: 80%;
+    float: right;
+  }
+  .Hobbies{
+    width: 80%;
+    float: right;
+  }
+  .Interests{
+    width: 80%;
+    float: right;
+  }
+  .WorkPage .left{
+    flex: 100%;
+    background-color: rgb(0, 42, 61);
+    height: 700px;
+  }
+  .WorkPage .right{
+    flex: 100%;
+    background-color: rgb(117, 211, 255);
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .WorkPage .left{
+    flex: 100%;
+    background-color: rgb(0, 42, 61);
+    height: 300px;
+  }
+  .WorkPage .right{
+    flex: 100%;
+    background-color: rgb(117, 211, 255);
+    height: 300px;
+  }
+  .skillpic{
+    padding-top: 80px;
+  }
+  .educationpic{
+    padding-top: 80px;
+  }
+  .AboutMePage .left h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 1%;
+    margin-left: 20%;
+  }
+  .AboutMePage .left h2{
+    font-size: 25px;
+    color: white;
+    margin-top: 38%;
+    margin-left: 20%;
+  }
+  .left img{
+    width: 10%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .right h1{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .right h2{
+    font-size: 19px;
+    margin-left: 30px;
+  }
+  .right h3{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+}

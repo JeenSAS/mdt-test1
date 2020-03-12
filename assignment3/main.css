@@ -1,0 +1,188 @@
+*{
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(126, 182, 255);
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+}
+.grid_container>div{
+    border:1px solid black;
+    background-color: white;
+}
+.name{
+    text-align: center;
+    grid-column: 1/span 4;
+}
+.name h1{
+     box-shadow: 0 0 50px rgb(78, 78, 78);
+    font-size: 50px;
+}
+.ingredient{   
+    grid-column: 1/span 2;
+}
+.ingredient h2{
+    margin:  0 auto;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.ingredient ul{
+    font-size: 30px;
+}
+.ingredient img{
+    padding-right: 0px;
+}
+.ingredient_pic{
+    grid-column: 3/span 2;
+}
+.ingredient_pic img{
+    width: 100%;
+    padding-top: 5px;
+}
+.instruction_pic{
+    width: 100%;
+    text-align: center;
+    grid-column: 1/span 4;
+}
+.instruction_pic h2{
+    width: 100%;
+    box-shadow: 0 0 50px rgb(78, 78, 78);
+    font-size: 40px;
+}
+.instruction1{
+    padding-left: 15px;
+    font-size: 30px;
+    grid-column: 1/span 2;
+}
+.instruction1_pic img{
+    width: 100%;
+    grid-column: 3/span 2;
+}
+.instruction2{
+    padding-left: 15px;
+    font-size: 30px;
+    grid-column: 1/span 2;
+}
+.instruction2_pic img{
+    width: 100%;
+    grid-column: 3/span 2;
+}
+.instruction3{
+    padding-left: 15px;
+    font-size: 30px;
+    grid-column: 1/span 2;
+}
+.instruction3_pic img{
+    width: 100%;
+    grid-column: 3/span 2;
+}
+.instruction4{
+    padding-left: 15px;
+    font-size: 30px;
+    grid-column: 1/span 2;
+}
+.instruction4_pic img{
+    width: 100%;
+    grid-column: 3/span 2;
+}
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .flex_container > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+
+
+
+  @media only screen and (max-width: 700px){
+    .name{
+        text-align: center;
+        grid-column: 1/span 4;
+    }
+    .name h1{
+         box-shadow: 0 0 50px rgb(78, 78, 78);
+        font-size: 25px;
+    }
+    .ingredient{   
+        grid-column: 1/span 4;
+    }
+    .ingredient h2{
+        margin:  0 auto;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .ingredient ul{
+        font-size: 15px;
+    }
+    .ingredient img{
+        padding-right: 0px;
+    }
+    .ingredient_pic{
+        grid-column: 1/span 4;
+    }
+    .ingredient_pic img{
+        padding-top: 5px;
+    }
+    .instruction_pic{
+        
+        text-align: center;
+        grid-column: 1/span 4;
+    }
+    .instruction_pic h2{
+        box-shadow: 0 0 50px rgb(78, 78, 78);
+        font-size: 20px;
+    }
+    .instruction1{
+        padding-left: 15px;
+        font-size: 15px;
+        grid-column: 1/span 4;
+    }
+    .instruction1_pic{
+        grid-column: 1/span 4;
+    }
+    .instruction2{
+        padding-left: 15px;
+        font-size: 15px;
+        grid-column: 1/span 4;
+    }
+    .instruction2_pic{
+        grid-column: 1/span 4;
+    }
+    .instruction3{
+        padding-left: 15px;
+        font-size: 15px;
+        grid-column: 1/span 4;
+    }
+    .instruction3_pic{
+        grid-column: 1/span 4;
+    }
+    .instruction4{
+        padding-left: 15px;
+        font-size: 15px;
+        grid-column: 1/span 4;
+    }
+    .instruction4_pic{
+        grid-column: 1/span 4;
+    }
+  }
+
+
+
